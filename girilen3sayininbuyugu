@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+	
+	//girilen üç sayıdan büyüğünü yazan kod parçası
+	int x,y,z,enbuyuk;
+	printf("uc sayi giriniz \n");
+	scanf("%d%d%d",&x,&y,&z);
+	if(x>y){
+		enbuyuk=x;
+		printf("en buyuk sayi= %d",enbuyuk);
+	}
+	else if(y>z){
+		enbuyuk=y;
+	printf("en buyuk sayi= %d",enbuyuk);
+		
+	}
+	else {
+		enbuyuk=z;
+		printf("en buyuk sayi= %d",enbuyuk);
+	}   
+	return 0;
+}
